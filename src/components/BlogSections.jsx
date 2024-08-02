@@ -167,8 +167,8 @@ export default function BlogSections() {
                   className="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                   src={`${post.projectImageUrl}`}
                   alt="An image of the final project"
-                  width={240}
-                  height={200}
+                  width={50}
+                  height={50}
                 />
               </div>
 
