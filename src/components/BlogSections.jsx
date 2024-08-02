@@ -6,7 +6,9 @@ const posts = [
   {
     id: 1,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dashboard_1.jpg ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dashboard_1.jpg ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+
     title: "web scraping project",
     href: "https://toddwschneider.com/posts/when-harvard-met-sally-n-gram-analysis-of-the-new-york-times-weddings-section/",
     description:
@@ -26,7 +28,8 @@ const posts = [
   {
     id: 2,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Visualization_1.png ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Visualization_1.png ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
     title: "Data Cleaning and Exploratory Analysis",
     href: "https://medium.com/@raahimkhan_85173/data-cleaning-and-exploratory-data-analysis-with-pandas-on-trending-you-tube-video-statistics-e06d7cd08710",
     description:
@@ -46,7 +49,8 @@ const posts = [
   {
     id: 3,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/data-lead.jpeg ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/data-lead.jpeg ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
     title: "Exploratory data analysis",
     href: "#",
     description: "Apply EDA techniques to any table of data using Python.",
@@ -65,7 +69,8 @@ const posts = [
   {
     id: 4,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/images.png ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/images.png ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
     title: "COVID19 Data Visualization Using Python",
     href: "https://www.coursera.org/projects/covid19-data-visualization-using-python",
     description:
@@ -85,7 +90,8 @@ const posts = [
   {
     id: 5,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/power-bi-dash.png ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/power-bi-dash.png ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
     title: "Twitter Sentiment Analysis Tutorial",
     href: "#",
     description:
@@ -105,7 +111,8 @@ const posts = [
   {
     id: 6,
     projectImageUrl:
-      " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Analyst+career.jpg ",
+      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Analyst+career.jpg ",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
     title: "Travel Time Optimization via Ant Colony and Genetic Evolution ",
     href: "https://github.com/khanhnamle1994/trip-optimizer",
     description:
