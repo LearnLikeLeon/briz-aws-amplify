@@ -112,7 +112,8 @@ const posts = [
     id: 6,
     projectImageUrl:
       //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Analyst+career.jpg ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+      //   "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/hr-analytics-project/HR+Data+Analysis.jpg",
     title: "Travel Time Optimization via Ant Colony and Genetic Evolution ",
     href: "https://github.com/khanhnamle1994/trip-optimizer",
     description:
