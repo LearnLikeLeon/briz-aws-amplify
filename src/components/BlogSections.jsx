@@ -6,15 +6,14 @@ const posts = [
   {
     id: 1,
     projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dashboard_1.jpg ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis+Dashboard.png",
 
-    title: "web scraping project",
-    href: "https://toddwschneider.com/posts/when-harvard-met-sally-n-gram-analysis-of-the-new-york-times-weddings-section/",
+    title: "Avocado Price Analysis",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis.pdf",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
+      "While learning at Pittsburg State University, I worked on a project that involved analyzing avocado prices per given region in the United States. The data was provided by the lecturer of Statistics and Data Analysis. This analysis aimed to check what region has a high price of avocado and the number of bags of avocados sold in the years 2015 to 2018. ",
+    date: "January 06, 2024",
+    datetime: "2024-01-06",
     category: { title: "Marketing", href: "#" },
     author: {
       name: "Dr. Edwige",
