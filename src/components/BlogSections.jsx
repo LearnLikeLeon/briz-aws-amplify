@@ -6,12 +6,12 @@ const posts = [
   {
     id: 1,
     projectImageUrl:
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis+Dashboard.png",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Avocado+Price+Analysis/Avocado+Price+Analysis/Avocado+Price+Analysis+Dashboard.png",
 
     title: "Avocado Price Analysis",
-    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis.pdf",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Avocado+Price+Analysis/Avocado+Price+Analysis/Avocado+Price+Analysis.pdf",
     description:
-      "While learning at Pittsburg State University, I worked on a project that involved analyzing avocado prices per given region in the United States. The data was provided by the lecturer of Statistics and Data Analysis. This analysis aimed to check what region has a high price of avocado and the number of bags of avocados sold in the years 2015 to 2018. ",
+      "While learning at Pittsburg State University, I worked on a project that involved analyzing avocado prices per given region in the United States. The data was provided by the lecturer of Statistics and Data Analysis. This analysis aimed to check what region has a high price of avocado and the number of bags of avocados sold in the years 2015 to 2018... ",
     date: "January 06, 2024",
     datetime: "2024-01-06",
     category: { title: "Marketing", href: "#" },
@@ -27,12 +27,11 @@ const posts = [
   {
     id: 2,
     projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Visualization_1.png ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
-    title: "Data Cleaning and Exploratory Analysis",
-    href: "https://medium.com/@raahimkhan_85173/data-cleaning-and-exploratory-data-analysis-with-pandas-on-trending-you-tube-video-statistics-e06d7cd08710",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Cyclistic+Rides+Analysis/Cyclistic+Ride+Analysis+Dashboard.png",
+    title: "Cyclistic Rides Analysis",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Cyclistic+Rides+Analysis/Cyclistic+Rides+Analysis+Report.pdf",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "Cyclistic is a company in Chicago that offers trips to customers daily. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships...",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { title: "Marketing", href: "#" },
@@ -48,14 +47,14 @@ const posts = [
   {
     id: 3,
     projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/data-lead.jpeg ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
-    title: "Exploratory data analysis",
-    href: "#",
-    description: "Apply EDA techniques to any table of data using Python.",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/HR+Analytics/HR+Analytics/HR+Attrition+Dashboard.png",
+    title: "HR Analytics",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/HR+Analytics/HR+Analytics/HR+Analytics+Report.pdf",
+    description:
+      "This project involves a detailed analysis of various aspects of HR, including demographics, employee turnover analysis, and employee wellness. ",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Human Resources", href: "#" },
     author: {
       name: "Dr. Edwige",
       role: "Researcher / Analyst",
@@ -68,14 +67,34 @@ const posts = [
   {
     id: 4,
     projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/images.png ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
-    title: "COVID19 Data Visualization Using Python",
-    href: "https://www.coursera.org/projects/covid19-data-visualization-using-python",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Sales+Analysis/Sales+Analysis/Sales+Analysis+Dashboard.png",
+    title: "Sales Analysis",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Sales+Analysis/Sales+Analysis/Sales+Analysis+Project.pdf",
     description:
-      "Visualize the global spread of COVID-19 using Python, Plotly, and a real data set.",
+      "In this project, I will dive into a large sales dataset to extract valuable insights. To properly convey my findings, I will calculate revenue indicators like total sales and profit margins, analyze sales patterns over time, determine the best-selling products, and produce visualizations",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
+    category: { title: "Business Intelligence", href: "#" },
+    author: {
+      name: "Dr. Edwige",
+      role: "Researcher / Analyst",
+      href: "#",
+      imageUrl:
+        "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+    },
+  },
+
+  {
+    id: 1,
+    projectImageUrl:
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Avocado+Price+Analysis/Avocado+Price+Analysis/Avocado+Price+Analysis+Dashboard.png",
+
+    title: "Avocado Price Analysis",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Avocado+Price+Analysis/Avocado+Price+Analysis/Avocado+Price+Analysis.pdf",
+    description:
+      "While learning at Pittsburg State University, I worked on a project that involved analyzing avocado prices per given region in the United States. The data was provided by the lecturer of Statistics and Data Analysis. This analysis aimed to check what region has a high price of avocado and the number of bags of avocados sold in the years 2015 to 2018... ",
+    date: "January 06, 2024",
+    datetime: "2024-01-06",
     category: { title: "Marketing", href: "#" },
     author: {
       name: "Dr. Edwige",
@@ -87,36 +106,13 @@ const posts = [
   },
 
   {
-    id: 5,
+    id: 2,
     projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/power-bi-dash.png ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis+Dashboard.png",
-    title: "Twitter Sentiment Analysis Tutorial",
-    href: "#",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Cyclistic+Rides+Analysis/Cyclistic+Ride+Analysis+Dashboard.png",
+    title: "Cyclistic Rides Analysis",
+    href: "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/Cyclistic+Rides+Analysis/Cyclistic+Rides+Analysis+Report.pdf",
     description:
-      "Clean thousands of tweets and use them to predict whether a customer is happy or not.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
-    author: {
-      name: "Dr. Edwige",
-      role: "Researcher / Analyst",
-      href: "#",
-      imageUrl:
-        "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
-    },
-  },
-
-  {
-    id: 6,
-    projectImageUrl:
-      //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Data+Analyst+career.jpg ",
-      //   "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/hr-analytics-project/HR+Data+Analysis.jpg",
-    title: "Travel Time Optimization via Ant Colony and Genetic Evolution ",
-    href: "https://github.com/khanhnamle1994/trip-optimizer",
-    description:
-      "In this project, I tackled the travel time optimization problem for taxi vehicles. This can be framed as the Traveling Salesman Problem, a well-known computer science problem. The objective is to find the shortest route that visits a set of locations.",
+      "Cyclistic is a company in Chicago that offers trips to customers daily. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships...",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { title: "Marketing", href: "#" },
