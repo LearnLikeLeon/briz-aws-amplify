@@ -91,7 +91,7 @@ const posts = [
     id: 5,
     projectImageUrl:
       //   " https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/power-bi-dash.png ",
-      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Author_1.jpg",
+      "https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/all-projects/avocado-price-analysis/Avocado+Price+Analysis+Dashboard.png",
     title: "Twitter Sentiment Analysis Tutorial",
     href: "#",
     description:
