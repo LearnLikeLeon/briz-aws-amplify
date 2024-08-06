@@ -11,10 +11,16 @@ import {
   AiOutlineTwitter,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import { useState } from "react";
+import { useState, React } from "react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Scrolling effect :
+
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
@@ -35,33 +41,33 @@ export default function Navbar() {
         </Link>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
-            <Link href="/">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                {" "}
-                About{" "}
-              </li>
-            </Link>
+            {/* onClick={() => scrollToSection("about")}  */}
+            <button className="ml-10 uppercase hover:border-b text-xl">
+              {" "}
+              About{" "}
+            </button>
 
-            <Link href="/">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                {" "}
-                Projects{" "}
-              </li>
-            </Link>
+            <button
+              onClick={() => scrollToSection("blog")}
+              className="ml-10 uppercase hover:border-b text-xl"
+            >
+              {" "}
+              Projects{" "}
+            </button>
 
-            <Link href="/">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                {" "}
-                Services{" "}
-              </li>
-            </Link>
+            {/* onClick={() => scrollToSection("services")}   */}
+            <button className="ml-10 uppercase hover:border-b text-xl">
+              {" "}
+              Services{" "}
+            </button>
 
-            <Link href="/">
-              <li className="ml-10 uppercase hover:border-b text-xl">
-                {" "}
-                Contact{" "}
-              </li>
-            </Link>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="ml-10 uppercase hover:border-b text-xl"
+            >
+              {" "}
+              Contact{" "}
+            </button>
           </ul>
         </div>
 
@@ -84,45 +90,58 @@ export default function Navbar() {
         </div>
         <div className=" flex-col py-4">
           <ul>
-            <Link href="/">
-              <li
+            {/*  Scrolling */}
+
+            {/* onClick={() => scrollToSection("about")}   */}
+
+            <button className="ml-4 uppercase text-xl">
+              <p
                 onClick={() => setMenuOpen(false)}
                 className="py-4 cursor-pointer"
               >
                 {" "}
                 About{" "}
-              </li>
-            </Link>
+              </p>
+            </button>
 
-            <Link href="/">
-              <li
+            <button
+              onClick={() => scrollToSection("blog")}
+              className="ml-4 uppercase text-xl"
+            >
+              <p
                 onClick={() => setMenuOpen(false)}
                 className="py-4 cursor-pointer"
               >
                 {" "}
                 Projects{" "}
-              </li>
-            </Link>
+              </p>
+            </button>
 
-            <Link href="/">
-              <li
+            {/*
+              onClick={() => scrollToSection("services")}
+            */}
+            <button className="ml-4 uppercase text-xl">
+              <p
                 onClick={() => setMenuOpen(false)}
                 className="py-4 cursor-pointer"
               >
                 {" "}
                 Services{" "}
-              </li>
-            </Link>
+              </p>
+            </button>
 
-            <Link href="/">
-              <li
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="ml-4 uppercase text-xl"
+            >
+              <p
                 onClick={() => setMenuOpen(false)}
                 className="py-4 cursor-pointer"
               >
                 {" "}
                 Contact{" "}
-              </li>
-            </Link>
+              </p>
+            </button>
           </ul>
         </div>
 
