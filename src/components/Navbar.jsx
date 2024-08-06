@@ -88,60 +88,59 @@ export default function Navbar() {
             <AiOutlineClose size={25} />
           </div>
         </div>
-        <div className=" flex-col py-4">
+        <div>
           <ul>
-            {/*  Scrolling */}
+            <div className=" flex flex-col py-4">
+              {/* onClick={() => scrollToSection("about")}   */}
+              <button className="ml-4 uppercase text-xl">
+                <p
+                  onClick={() => setMenuOpen(false)}
+                  className="py-4 cursor-pointer"
+                >
+                  {" "}
+                  About{" "}
+                </p>
+              </button>
 
-            {/* onClick={() => scrollToSection("about")}   */}
-
-            <button className="ml-4 uppercase text-xl">
-              <p
-                onClick={() => setMenuOpen(false)}
-                className="py-4 cursor-pointer"
+              <button
+                onClick={() => scrollToSection("blog")}
+                className="ml-4 uppercase text-xl"
               >
-                {" "}
-                About{" "}
-              </p>
-            </button>
+                <p
+                  onClick={() => setMenuOpen(false)}
+                  className="py-4 cursor-pointer"
+                >
+                  {" "}
+                  Projects{" "}
+                </p>
+              </button>
 
-            <button
-              onClick={() => scrollToSection("blog")}
-              className="ml-4 uppercase text-xl"
-            >
-              <p
-                onClick={() => setMenuOpen(false)}
-                className="py-4 cursor-pointer"
-              >
-                {" "}
-                Projects{" "}
-              </p>
-            </button>
+              {/*
+            onClick={() => scrollToSection("services")}
+          */}
+              <button className="ml-4 uppercase text-xl">
+                <p
+                  onClick={() => setMenuOpen(false)}
+                  className="py-4 cursor-pointer"
+                >
+                  {" "}
+                  Services{" "}
+                </p>
+              </button>
 
-            {/*
-              onClick={() => scrollToSection("services")}
-            */}
-            <button className="ml-4 uppercase text-xl">
-              <p
-                onClick={() => setMenuOpen(false)}
-                className="py-4 cursor-pointer"
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="ml-4 uppercase text-xl"
               >
-                {" "}
-                Services{" "}
-              </p>
-            </button>
-
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="ml-4 uppercase text-xl"
-            >
-              <p
-                onClick={() => setMenuOpen(false)}
-                className="py-4 cursor-pointer"
-              >
-                {" "}
-                Contact{" "}
-              </p>
-            </button>
+                <p
+                  onClick={() => setMenuOpen(false)}
+                  className="py-4 cursor-pointer"
+                >
+                  {" "}
+                  Contact{" "}
+                </p>
+              </button>
+            </div>
           </ul>
         </div>
 
