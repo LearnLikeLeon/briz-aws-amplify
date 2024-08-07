@@ -16,8 +16,6 @@ import { useState, React } from "react";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Scrolling effect :
-
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
   };
@@ -41,33 +39,45 @@ export default function Navbar() {
         </Link>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex">
-            {/* onClick={() => scrollToSection("about")}  */}
-            <button className="ml-10 uppercase hover:border-b text-xl">
-              {" "}
-              About{" "}
-            </button>
+            <li>
+              <button
+                onClick={() => scrollToSection("about")}
+                className="ml-10 uppercase hover:border-b text-xl"
+              >
+                {" "}
+                About{" "}
+              </button>
+            </li>
 
-            <button
-              onClick={() => scrollToSection("blog")}
-              className="ml-10 uppercase hover:border-b text-xl"
-            >
-              {" "}
-              Projects{" "}
-            </button>
+            <li>
+              <button
+                onClick={() => scrollToSection("blog")}
+                className="ml-10 uppercase hover:border-b text-xl"
+              >
+                {" "}
+                Projects{" "}
+              </button>
+            </li>
 
-            {/* onClick={() => scrollToSection("services")}   */}
-            <button className="ml-10 uppercase hover:border-b text-xl">
-              {" "}
-              Services{" "}
-            </button>
+            <li>
+              <button
+                onClick={() => scrollToSection("services")}
+                className="ml-10 uppercase hover:border-b text-xl"
+              >
+                {" "}
+                Services{" "}
+              </button>
+            </li>
 
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="ml-10 uppercase hover:border-b text-xl"
-            >
-              {" "}
-              Contact{" "}
-            </button>
+            <li>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="ml-10 uppercase hover:border-b text-xl"
+              >
+                {" "}
+                Contact{" "}
+              </button>
+            </li>
           </ul>
         </div>
 
@@ -91,55 +101,45 @@ export default function Navbar() {
         <div>
           <ul>
             <div className=" flex flex-col py-4">
-              {/* onClick={() => scrollToSection("about")}   */}
-              <button className="ml-4 uppercase text-xl">
-                <p
+              <li onClick={() => scrollToSection("about")}>
+                <button
                   onClick={() => setMenuOpen(false)}
-                  className="py-4 cursor-pointer"
+                  className="m-2 uppercase text-xl cursor-pointer "
                 >
                   {" "}
                   About{" "}
-                </p>
-              </button>
+                </button>
+              </li>
 
-              <button
-                onClick={() => scrollToSection("blog")}
-                className="ml-4 uppercase text-xl"
-              >
-                <p
+              <li onClick={() => scrollToSection("blog")}>
+                <button
                   onClick={() => setMenuOpen(false)}
-                  className="py-4 cursor-pointer"
+                  className="m-2 uppercase text-xl cursor-pointer "
                 >
                   {" "}
                   Projects{" "}
-                </p>
-              </button>
+                </button>
+              </li>
 
-              {/*
-            onClick={() => scrollToSection("services")}
-          */}
-              <button className="ml-4 uppercase text-xl">
-                <p
+              <li onClick={() => scrollToSection("services")}>
+                <button
                   onClick={() => setMenuOpen(false)}
-                  className="py-4 cursor-pointer"
+                  className="m-2 uppercase text-xl cursor-pointer "
                 >
                   {" "}
                   Services{" "}
-                </p>
-              </button>
+                </button>
+              </li>
 
-              <button
-                onClick={() => scrollToSection("contact")}
-                className="ml-4 uppercase text-xl"
-              >
-                <p
+              <li onClick={() => scrollToSection("contact")}>
+                <button
                   onClick={() => setMenuOpen(false)}
-                  className="py-4 cursor-pointer"
+                  className="m-2 uppercase text-xl cursor-pointer "
                 >
                   {" "}
                   Contact{" "}
-                </p>
-              </button>
+                </button>
+              </li>
             </div>
           </ul>
         </div>
