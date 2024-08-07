@@ -8,11 +8,19 @@ export default function Services() {
       <div class="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
         <header class="text-center mx-auto mb-12 lg:px-20">
           <h2 class="text-2xl leading-normal mb-2 font-bold text-black">
-            What We Do
+            Driving better business decisions
           </h2>
 
           <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-            Save time managing advertising &amp; Content for your business.
+            We are dedicated to helping our clients unlock the full potential of
+            their subsurface data through our innovative suite of tools and
+            services. Through the ES consulting Suite, we provide advanced data
+            analytics, visualization, and workflow automation capabilities to
+            help you make sense of your data and derive valuable insights. In
+            addition, we offer consulting services to help you optimize your
+            workflows and achieve your business objectives, as well as
+            multi-client products to provide you with the data you need to drive
+            your decision-making.
           </p>
         </header>
 
@@ -20,21 +28,23 @@ export default function Services() {
           <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
             <div class="mb-12 space-y-4">
               <h3 class="text-2xl font-semibold text-purple-900">
-                Graphic Design
+                Academic Research
               </h3>
               <p class="mb-6">
-                Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
-                cum, consectetur ullam tempora ipsa iste officia sed officiis!
-                Incidunt ea animi officiis.
+                Book a free consultation to discuss your dissertation. We
+                provide research & development. A team of experts who are
+                dedicated to helping you complete your dissertation with ease.
               </p>
-              <a href="#" class="block font-medium text-purple-600">
+              <a
+                href="https://www.researchgate.net/profile/Edwige-Feulefack-Songong-2"
+                class="block font-medium text-purple-600"
+              >
                 Know more
               </a>
             </div>
 
             <Image
-              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Logos/Data_Portfolio_Logo_3.jpg"
-              // src="https://tailus.io/sources/blocks/end-image/preview/images/graphic.svg"
+              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Services/academic_rc.jpg"
               alt="service-illustration-image"
               width={900}
               height={600}
@@ -43,19 +53,25 @@ export default function Services() {
           </div>
           <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
             <div class="mb-12 space-y-4">
-              <h3 class="text-2xl font-semibold text-purple-900">UI Design</h3>
+              <h3 class="text-2xl font-semibold text-purple-900">
+                Data Analytics
+              </h3>
               <p class="mb-6">
-                Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
-                cum, consectetur ullam tempora ipsa iste officia sed officiis!
-                Incidunt ea animi officiis.
+                Our curated and analytics-ready data provide the foundation for
+                turning data into insights and action. With our data packages,
+                you can access cleaned, indexed, and contextualized data that
+                can be plugged directly into your business workflows, saving you
+                time and resources.
               </p>
-              <a href="#" class="block font-medium text-purple-600">
+              <a
+                href="https://aws.amazon.com/big-data/datalakes-and-analytics/"
+                class="block font-medium text-purple-600"
+              >
                 Know more
               </a>
             </div>
             <Image
-              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Logos/Data_Portfolio_Logo_3.jpg"
-              // src="https://tailus.io/sources/blocks/end-image/preview/images/ui-design.svg"
+              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Services/amazon-quicksight-graph.png"
               alt="service-illustration-image"
               width={900}
               height={600}
@@ -64,20 +80,51 @@ export default function Services() {
           </div>
           <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
             <div class="mb-12 space-y-4">
-              <h3 class="text-2xl font-semibold text-purple-900">UX Design</h3>
+              <h3 class="text-2xl font-semibold text-purple-900">
+                Training and Learning
+              </h3>
               <p class="mb-6">
-                Obcaecati, quam? Eligendi, nulla numquam natus laborum porro at
-                cum, consectetur ullam tempora ipsa iste officia sed officiis!
-                Incidunt ea animi officiis.
+                Get the training you need to succeed in today's data analyst
+                career with our courses, mentored process and educational
+                resources.
               </p>
-              <a href="#" class="block font-medium text-purple-600">
+              <a
+                href="https://aws.amazon.com/big-data/datalakes-and-analytics/"
+                class="block font-medium text-purple-600"
+              >
                 Know more
               </a>
             </div>
 
             <Image
-              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Logos/Data_Portfolio_Logo_3.jpg"
-              // src="https://tailus.io/sources/blocks/end-image/preview/images/ux-design.svg"
+              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Services/Service-Training-Manual.webp"
+              alt="service-illustration-image"
+              width={900}
+              height={600}
+              className="w-2/3 ml-auto"
+            />
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div class="mb-12 space-y-4">
+              <h3 class="text-2xl font-semibold text-purple-900">
+                Research Publications
+              </h3>
+              <p class="mb-6">
+                Book a free consultation to discuss your dissertation. We
+                provide research & development. A team of experts who are
+                dedicated to helping you complete your dissertation with ease.
+              </p>
+              <a
+                href="https://www.researchgate.net/profile/Edwige-Feulefack-Songong-2"
+                class="block font-medium text-purple-600"
+              >
+                Know more
+              </a>
+            </div>
+
+            <Image
+              src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Services/Publishing.jpg"
               alt="service-illustration-image"
               width={900}
               height={600}

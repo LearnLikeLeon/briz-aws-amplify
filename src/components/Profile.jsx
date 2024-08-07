@@ -7,29 +7,27 @@ export default function Profile() {
   return (
     <div className="h-full bg-gray-200 p-8">
       {/*  Background Image */}
-      <div className="w-full h-[250px]">
+      <div className="w-full">
         <Image
-          src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Logos/Data_Portfolio_Logo_3.jpg"
-          // src="https://vojislavd.com/ta-template-demo/assets/img/profile-background.jpg"
+          src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Profile/profile-background.jpg"
           alt="profile section background image"
-          width={180}
-          height={180}
+          width={2000}
+          height={0}
           className="rounded-tl-lg rounded-tr-lg"
         />
       </div>
 
       {/* Photo */}
-      <div class="flex flex-col items-center -mt-20">
+      <div class="flex flex-col items-center -mt-32">
         <Image
-          src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Logos/Data_Portfolio_Logo_3.jpg"
-          // src="https://vojislavd.com/ta-template-demo/assets/img/profile.jpg"
+          src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Profile/Author_Profile.jpg"
           alt="Author Logo"
-          width={80}
-          height={80}
-          className="w-40 border-4 border-white rounded-full"
+          width={190}
+          height={190}
+          className=" w-60 h-60 border-4 border-white rounded-full"
         />
         <div class="flex items-center space-x-2 mt-2">
-          <p class="text-2xl">Dr. Edwige Songong</p>
+          <p class="text-3xl font-serif italic">Dr. Edwige Songong</p>
           <span class="bg-blue-500 rounded-full p-1" title="Verified">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,15 +45,17 @@ export default function Profile() {
             </svg>
           </span>
         </div>
-        <p class="text-gray-700">Researcher and Data Analyst</p>
-        <p class="text-sm text-gray-500">Maryland, USA</p>
+        <p class="text-gray-700 font-serif font-medium  ">
+          Researcher and Data Analyst
+        </p>
+        <p class="text-sm text-gray-500 font-serif font-light">Maryland, USA</p>
       </div>
 
       {/* Other details :*/}
       <div class="flex-1 flex flex-col items-center lg:items-end justify-end px-8 mt-2">
         <div class="flex items-center space-x-4 mt-2">
           <Link
-            href="https://www.linkedin.com/"
+            href=""
             class="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
           >
             <svg
@@ -67,7 +67,7 @@ export default function Profile() {
               <path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z" />
               <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
             </svg>
-            <span>Message</span>
+            <span className="font-serif">Message</span>
           </Link>
 
           <Link
@@ -86,7 +86,7 @@ export default function Profile() {
                 clip-rule="evenodd"
               />
             </svg>
-            <span>Call</span>
+            <span className="font-serif">Call</span>
           </Link>
         </div>
       </div>
