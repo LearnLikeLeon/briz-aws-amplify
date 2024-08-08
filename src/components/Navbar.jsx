@@ -2,15 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
 import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiOutlineInstagram,
-  AiOutlineFacebook,
-  AiOutlineTwitter,
-  AiOutlineLinkedin,
-} from "react-icons/ai";
+  // RxArrowTopRight,
+  RxGithubLogo,
+  RxLinkedinLogo,
+  RxTwitterLogo,
+  // RxCrossCircled,
+} from "react-icons/rx";
+
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState, React } from "react";
 
 export default function Navbar() {
@@ -93,8 +93,9 @@ export default function Navbar() {
             : "fixed left-[-100%] top-0 w-[65%] p-10 ease-in duration-500"
         }
       >
-        <div className="flex w-full items-center justify-end">
+        <div className="flex w-full items-center justify-end ">
           <div onClick={handleNav} className="cursor-pointer ">
+            {/* <RxCrossCircled size={35} />    */}
             <AiOutlineClose size={25} />
           </div>
         </div>
@@ -145,9 +146,29 @@ export default function Navbar() {
         </div>
 
         <div className=" flex flex-row justify-around pt-10 items-center">
-          <AiOutlineInstagram size={30} className="cursor-pointer" />
-          <AiOutlineFacebook size={30} className="cursor-pointer" />
-          <AiOutlineLinkedin size={30} className="cursor-pointer" />
+          <a href="https://x.com/">
+            <RxTwitterLogo
+              href="https://www.twitter.com/"
+              size={30}
+              className="text-blue-500 cursor-pointer"
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/">
+            <RxLinkedinLogo
+              href="https://www.linkedin.com/"
+              size={30}
+              className="text-blue-500 cursor-pointer"
+            />
+          </a>
+
+          <a href="https://github.com/">
+            <RxGithubLogo
+              href="https://www.github.com/"
+              size={30}
+              className="text-blue-500 cursor-pointer"
+            />
+          </a>
         </div>
       </div>
     </nav>
