@@ -1,7 +1,5 @@
 {
-  "extends": "next/core-web-vitals",
-  // eslint no unescaped entities ' can be escaped with &apos; (FIXED)
-  // Link : https://www.youtube.com/watch?v=Gn6tUFeChcI
+  "extends": ["next/babel","next/core-web-vitals"],
   "rules": {
     "react/no-unescaped-entities":0
 

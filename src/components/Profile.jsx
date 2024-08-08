@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export default function Profile() {
   return (
-    <div className="h-full bg-gray-200 p-8">
+    <div className=" h-full bg-gray-200 p-4">
       {/*  Background Image */}
       <div className="w-full">
         <Image
           src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Profile/profile-background.jpg"
           alt="profile section background image"
-          width={2000}
+          width={5000}
           height={0}
           className="rounded-tl-lg rounded-tr-lg"
         />

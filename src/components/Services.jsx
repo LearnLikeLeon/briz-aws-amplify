@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function Services() {
   return (
     <div className="py-16 bg-purple-200">
-      <div class="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
-        <header class="text-center mx-auto mb-12 lg:px-20">
-          <h2 class="text-2xl leading-normal mb-2 font-bold text-black">
+      <div className="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+        <header className="text-center mx-auto mb-12 lg:px-20">
+          <h2 className="text-2xl leading-normal mb-2 font-bold text-black">
             Driving better business decisions
           </h2>
 
-          <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
+          <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
             We are dedicated to helping our clients unlock the full potential of
             their subsurface data through our innovative suite of tools and
             services. Through the ES consulting Suite, we provide advanced data
@@ -24,20 +24,20 @@ export default function Services() {
           </p>
         </header>
 
-        <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-          <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-            <div class="mb-12 space-y-4">
-              <h3 class="text-2xl font-semibold text-purple-900">
+        <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
+          <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div className="mb-12 space-y-4">
+              <h3 className="text-2xl font-semibold text-purple-900">
                 Academic Research
               </h3>
-              <p class="mb-6">
+              <p className="mb-6">
                 Book a free consultation to discuss your dissertation. We
                 provide research & development. A team of experts who are
                 dedicated to helping you complete your dissertation with ease.
               </p>
               <a
                 href="https://www.researchgate.net/profile/Edwige-Feulefack-Songong-2"
-                class="block font-medium text-purple-600"
+                className="block font-medium text-purple-600"
               >
                 Know more
               </a>
@@ -51,21 +51,21 @@ export default function Services() {
               className="w-2/3 ml-auto -mb-12"
             />
           </div>
-          <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-            <div class="mb-12 space-y-4">
+          <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div className="mb-12 space-y-4">
               <h3 class="text-2xl font-semibold text-purple-900">
                 Data Analytics
               </h3>
-              <p class="mb-6">
-                Our curated and analytics-ready data provide the foundation for
-                turning data into insights and action. With our data packages,
-                you can access cleaned, indexed, and contextualized data that
-                can be plugged directly into your business workflows, saving you
-                time and resources.
+              <p className="mb-6">
+                Our curated and analytics-ready data suites provide the
+                foundation for turning data into insights and action. With our
+                data packages, you can access cleaned, indexed, and
+                contextualized data that can be plugged directly into your
+                business workflows, saving you time and resources.
               </p>
               <a
                 href="https://aws.amazon.com/big-data/datalakes-and-analytics/"
-                class="block font-medium text-purple-600"
+                className="block font-medium text-purple-600"
               >
                 Know more
               </a>
@@ -78,19 +78,19 @@ export default function Services() {
               className="w-2/3 ml-auto"
             />
           </div>
-          <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-            <div class="mb-12 space-y-4">
-              <h3 class="text-2xl font-semibold text-purple-900">
+          <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div className="mb-12 space-y-4">
+              <h3 className="text-2xl font-semibold text-purple-900">
                 Training and Learning
               </h3>
-              <p class="mb-6">
+              <p className="mb-6">
                 Get the training you need to succeed in today's data analyst
                 career with our courses, mentored process and educational
                 resources.
               </p>
               <a
                 href="https://aws.amazon.com/big-data/datalakes-and-analytics/"
-                class="block font-medium text-purple-600"
+                className="block font-medium text-purple-600"
               >
                 Know more
               </a>
@@ -105,19 +105,19 @@ export default function Services() {
             />
           </div>
 
-          <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
-            <div class="mb-12 space-y-4">
-              <h3 class="text-2xl font-semibold text-purple-900">
+          <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+            <div className="mb-12 space-y-4">
+              <h3 className="text-2xl font-semibold text-purple-900">
                 Research Publications
               </h3>
-              <p class="mb-6">
+              <p className="mb-6">
                 Book a free consultation to discuss your dissertation. We
                 provide research & development. A team of experts who are
                 dedicated to helping you complete your dissertation with ease.
               </p>
               <a
                 href="https://www.researchgate.net/profile/Edwige-Feulefack-Songong-2"
-                class="block font-medium text-purple-600"
+                className="block font-medium text-purple-600"
               >
                 Know more
               </a>

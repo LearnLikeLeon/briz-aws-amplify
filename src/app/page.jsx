@@ -5,6 +5,7 @@ import BlogSections from "@/components/BlogSections";
 import ContactForm from "@/components/ContactForm";
 import Profile from "@/components/Profile";
 import Services from "@/components/Services";
+import ServicesSlider from "@/components/ServicesSlider";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
 
         {/* Service Section */}
         <section id="services">
-          <Services />
+          {/*   <Services />  */}
+          <ServicesSlider />
         </section>
 
         {/* ' Connect with me ' Section */}
