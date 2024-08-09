@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Profile() {
   return (
-    <div className=" h-full bg-gray-200 p-4">
+    <div className="mt-4 h-full bg-gray-200 p-1 lg:p-4">
       {/*  Background Image */}
       <div className="w-full">
         <Image
@@ -18,16 +18,18 @@ export default function Profile() {
       </div>
 
       {/* Photo */}
-      <div class="flex flex-col items-center -mt-32">
+      <div class="flex flex-col items-center -mt-16 lg:-mt-32">
         <Image
           src="https://website-image-1.s3.amazonaws.com/Data+analyst_Portfolio+Projects/Dr+Edwige_Profile/Author_Profile.jpg"
           alt="Author Logo"
           width={190}
           height={190}
-          className=" w-60 h-60 border-4 border-white rounded-full"
+          className=" w-40 h-40 lg:w-60 lg:h-60 border-4 border-white rounded-full"
         />
         <div class="flex items-center space-x-2 mt-2">
-          <p class="text-3xl font-serif italic">Dr. Edwige Songong</p>
+          <p class="text-2xl md:text-3xl font-serif italic">
+            Dr. Edwige Songong
+          </p>
           <span class="bg-blue-500 rounded-full p-1" title="Verified">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +50,9 @@ export default function Profile() {
         <p class="text-gray-700 font-serif font-medium  ">
           Researcher and Data Analyst
         </p>
-        <p class="text-sm text-gray-500 font-serif font-light">Maryland, USA</p>
+        <p class="text-sm text-gray-500 font-serif font-light">
+          Washington DC , USA
+        </p>
       </div>
 
       {/* Other details :*/}

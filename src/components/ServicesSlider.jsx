@@ -16,18 +16,18 @@ import Image from "next/image";
 export default function ActiveSlider() {
   return (
     // h-[900px] or h-screen
-    <div className="flex items-center justify-center flex-col h-[900px] lg:h-[1200px] bg-blue-300 rounded-3xl">
+    <div className=" py-2 flex items-center justify-center flex-col h-[900px] lg:h-fit  bg-blue-300 rounded-3xl">
       <div className="container mx-auto  text-gray-500 ">
-        <header className="text-center mx-auto mb-4 lg:px-20">
-          <h1 className="font-semibold font-serif text-black text-4xl">
+        <header className="text-center mx-auto mb-2 lg:px-20">
+          <h1 className="font-semibold font-serif text-black text-2xl">
             {" "}
             Our Services{" "}
           </h1>
-          <h2 className="text-2xl leading-normal m-4 font-bold italic font-serif text-black">
+          <h2 className="text-xl leading-normal m-4 font-bold italic font-serif text-black">
             Driving better business decisions
           </h2>
 
-          <p className="text-black indent-8 leading-relaxed font-light font-serif text-2xl text-justify mx-auto">
+          <p className="text-black indent-8 leading-relaxed font-light font-serif lg:text-xl text-justify mx-auto">
             We are dedicated to helping our clients unlock the full potential of
             their subsurface data through our innovative suite of tools and
             services. Through the ES consulting Suite, we provide advanced data
@@ -41,55 +41,58 @@ export default function ActiveSlider() {
         </header>
       </div>
 
-      <p className="text-2xl leading-normal font-bold font-serif italic text-black pb-10">
+      <p className="text-xl leading-normal font-bold font-serif italic text-black p-2">
         {" "}
         We provide a variety of services such as :{" "}
       </p>
+
+      {/*   Swiper Mobile and iPad Mini all screens less than 820 px */}
+
+      <div className="container"></div>
+
+      {/*   Swiper Desktop and iPad Pro all screens  bigger than 1024 px */}
+
       <Swiper
         breakpoints={{
           //  iPhone X screens 'sm': '375px'
           //  screens 'sm': '640px'
+          // iPaid mini : 820 px
+
           520: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-
-          //  screens 'md': '768px'
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 15,
-          },
-
-          //  screens 'lg': '1024px'
-          1024: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 5,
           },
 
-          //  screens 'xl': '1280px'
-          //   1280: {
-          //     slidesPerView: 4,
-          //     spaceBetween: 20,
-          //   },
+          // iPaid mini screens 'md': '768px'
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
 
-          //  screens '2xl': '1536px'
-          //   1536: {
-          //     slidesPerView: 5,
-          //     spaceBetween: 20,
-          //   },
+          // iPaid Pro screens 'lg': '1024px'
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+
+          // Desktop screens 'xl': '1280px'
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
         }}
-        slidesPerView={1}
+        // slidesPerView={1}
         loop={true}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="max-w-[90%] lg:max-w-[80%]"
+        className="max-w-[80%] md:max-w-screen-sm lg:max-w-screen-lg xl:max-w-screen-2xl "
       >
         {ServiceData.map((item) => (
-          <SwiperSlide key={item.title}>
-            <div className="flex flex-col gap-6 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[430px] lg:w-[450px] overflow-hidden cursor-pointer">
+          <SwiperSlide key={item.title} className="ml-8">
+            <div className="flex flex-col px-6 py-8 gap-6 mb-10 lg:mb-12 group relative shadow-lg text-white rounded-xl overflow-hidden cursor-pointer h-[250px] w-[215px] md:h-[360px] md:w-[400px]  lg:h-[430px] lg:w-[400px] xl:h-[430px] xl:w-[450px] ">
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 // style={{ backgroundImage: `url(${item.backgroundImage})` }}

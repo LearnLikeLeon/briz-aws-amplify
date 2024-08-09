@@ -1,4 +1,4 @@
-import connectDB from "@/app/lib/mongodb";
+import connectDB from "@/app/lib/databaseConnection";
 import Contact from "@/app/models/contact";
 import { NextResponse } from "next/server";
 import mongoose from "mongoose";
@@ -23,7 +23,7 @@ export async function POST(req) {
       console.log(errorList);
       return NextResponse.json({ msg: errorList });
     } else {
-      return NextResponse.json({ msg: ["Unable to send message."] });
+      return NextResponse.json({ msg: ["Unable to send your message."] });
     }
   }
 }
